@@ -1,4 +1,4 @@
-# 📈 Graph Digitizer (Streamlit)
+# 📈 Graph Digitizer (Pix2Plot)
 
 Upload a graph image → set 2-point calibration on each axis → extract (click or auto by color) → **download CSV**.  
 Beginner-friendly, laptop-only workflow—no mobile needed.
