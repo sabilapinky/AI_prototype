@@ -34,7 +34,23 @@ python -m venv .venv
 .venv\Scripts\Activate.ps1
 
 # 3) install deps (pinned to avoid canvas/streamlit breakage)
-pip install -r requirements.txt
+pip install -r streamlit.txt
 
 # 4) run the app
 streamlit run app.py
+
+## 🚀 From codespace
+
+```codespace
+# 1) On your repo page → Code → Codespaces → Create codespace
+
+# 2) create & activate venv
+python -m venv .venv && source .venv/bin/activate
+
+# 3) install deps (pinned to avoid canvas/streamlit breakage)
+pip install -r streamlit.txt
+
+# 4) run the app
+streamlit run app.py --server.port 8501 --server.address 0.0.0.0
+
+When the port prompt appears, you can open the forwarded URL
