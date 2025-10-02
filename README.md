@@ -3,8 +3,6 @@
 Upload a graph image → set 2-point calibration on each axis → extract (click or auto by color) → **download CSV**.  
 Beginner-friendly, laptop-only workflow—no mobile needed.
 
-![app-screenshot](docs/screenshot.png) <!-- optional: replace with your own -->
-
 ---
 
 ## ✨ Features
